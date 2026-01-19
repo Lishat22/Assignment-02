@@ -1,0 +1,47 @@
+body{
+    background: #1A0B2E;
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   margin-left: 200px;
+   margin-right: 200px; 
+}
+
+.logo{
+   font-size: 60px;
+   font-weight: bold;
+   /* border: 1px solid black; */
+}
+
+.logo span{
+    color:#ff2bdc ;
+}
+
+.menu{
+   /* margin: 0 auto; */
+   margin: 30px;
+
+}
+
+
+.menu a{
+   margin: 20px;
+   color: white;
+   text-decoration: none;
+
+}
+
+.subscribe-btn{
+     background: linear-gradient(to right, #ff2bdc, #ffb347);
+     border: none;
+     padding: 8px 16px;
+     border-radius: 20px;
+     cursor: pointer;
+     margin: 30px;
+}
