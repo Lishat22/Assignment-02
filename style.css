@@ -16,7 +16,6 @@ body{
 .logo{
    font-size: 60px;
    font-weight: bold;
-   /* border: 1px solid black; */
 }
 
 .logo span{
@@ -24,7 +23,6 @@ body{
 }
 
 .menu{
-   /* margin: 0 auto; */
    margin: 30px;
 
 }
@@ -37,6 +35,7 @@ body{
 
 }
 
+
 .subscribe-btn{
      background: linear-gradient(to right, #ff2bdc, #ffb347);
      border: none;
@@ -44,4 +43,8 @@ body{
      border-radius: 20px;
      cursor: pointer;
      margin: 30px;
+     color: white;
+     display: flex;
+     align-items: center;
+     gap: 8px;
 }
