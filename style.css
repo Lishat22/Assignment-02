@@ -1,39 +1,39 @@
-body{
-    background: #1A0B2E;
-    margin: 0;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-.navbar{
-   display: flex;
-   justify-content: space-between;
-   padding: 20px 40px;
-   margin-left: 200px;
-   margin-right: 200px; 
-}
-
-.logo{
-   font-size: 60px;
-   font-weight: bold;
-}
-
-.logo span{
-    color:#ff2bdc ;
-}
-
-.menu{
-   margin: 30px;
-
-}
-
-
-.menu a{
-   margin: 20px;
-   color: white;
-   text-decoration: none;
-
-}
+   body{
+       background: #1A0B2E;
+       margin: 0;
+       color: white;
+       font-family: Arial, sans-serif;
+   }
+   
+   .navbar{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      margin-left: 200px;
+      margin-right: 200px; 
+   }
+   
+   .logo{
+      font-size: 60px;
+      font-weight: bold;
+   }
+   
+   .logo span{
+       color:#ef89de ;
+   }
+   
+   .menu{
+      margin: 30px;
+   
+   }
+   
+   
+   .menu a{
+      margin: 20px;
+      color: white;
+      text-decoration: none;
+   
+   }
 
 
 .subscribe-btn{
@@ -48,3 +48,68 @@ body{
      align-items: center;
      gap: 8px;
 }
+
+/* hero section  */
+
+
+
+
+/* About section */
+
+    .about-section {
+      background-color:#1A0B2E;
+      color: #fffffe;
+      text-align: center;
+      width: 1400px;
+      height: 646px;
+      margin: 0 auto;
+    }
+    
+    .title {
+      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
+      color: #00ff9d;
+    }
+    
+    .description { 
+      max-width: 1200px;
+      margin: 0 auto ;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: #a7a9be;
+      margin-top: 1.8rem;
+    }
+    
+    
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px 60px;
+      margin-top: 80px;
+    }
+    
+    .stat-item {
+      text-align: center;
+      min-width: 180px;
+    }
+    
+    .stat-number {
+      font-size: 3.2rem;
+      font-weight: bold;
+      color: #00ff9d;
+      margin-bottom: 0.6rem;
+    }
+    
+    .stat-label {
+      font-size: 1.1rem;
+      color: #94a1b2;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .line{
+       margin-top: 100px;
+       width: 1000px;
+       opacity: 0.1;
+    }
