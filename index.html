@@ -1,49 +1,63 @@
-<!doctype html>
-<html lang="en" data-them="[#1A0B2E]">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment-2</title>
+    <title>Why Choose TechWave</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- Why Techwave -->
+<section class="why-techwave">
+    <h2 class="section-title">Why Choose TechWave</h2>
 
-    <!-- TAILWINDCSS LINK -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <!-- CDNJS LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-
-   <body>
-    <header>
-      <!-- navbar section -->
-  <nav class="w-[96%] mx-auto md:w-[71%] flex items-center justify-between mt-4 mb-4">
-
-        <div class="font-bold text-3xl md:text-4xl lg:text-5xl">
-          <span>Tech</span><span class="gradient-color">Wave</span>
+    <div class="features-grid">
+        <div class="feature-card tall">
+            <img src="./B13-A02-TechWave/assets/headphone.png" alt="">
+            <h3> Premium Audio Quality</h3>
+            <p>
+                Experience crystal-clear sound with professional-grade recording
+                equipment and expert audio engineering. Every episode is mastered
+                for optimal listening.
+            </p>
         </div>
 
-        <div class="hidden lg:block">
-          <ul class="flex gap-8">
-            <a class="animation-btn py-1 px-3" href=""><li>About</li></a>
-            <a class="animation-btn py-1 px-3"><li>Episodes</li></a>
-            <a class="animation-btn py-1 px-3"><li>Host</li></a>
-          </ul>
+        <div class="feature-card">
+            <img src="./B13-A02-TechWave/assets/device.png" alt="">
+            <h3> Mobile Friendly</h3>
+            <p>
+                Listen on the go with a seamless mobile experience and offline
+                downloads.
+            </p>
         </div>
 
-        <button class="hidden gradient-btn md:block">
-          Subscribe <i class="fa-solid fa-arrow-right-long"></i>
-        </button>
-
-        <div class="md:hidden ">
-          <div class="animation-btn p-2 ">
-            <img  w-[100%] src="./assets/hamburger-menu.png" alt="menu" />
-          </div>
+        <div class="feature-card">
+            <img src="./B13-A02-TechWave/assets/location.png" alt="">
+            <h3> Global Community</h3>
+            <p>
+                Connect with tech enthusiasts from over 120 countries worldwide.
+            </p>
         </div>
-      </nav>
+
+        <div class="feature-card wide">
+            <img src="./B13-A02-TechWave/assets/zap-fast.png" alt="">
+            <h3>Exclusive Interviews</h3>
+            <p>
+                Get unprecedented access to industry leaders, startup founders,
+                and tech visionaries. Deep dives into real journeys and failures.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <img src="./B13-A02-TechWave/assets/resource.png" alt="">
+            <h3>Rich Resources</h3>
+            <p>
+                Access show notes, transcripts, and additional learning materials
+                for every episode.
+            </p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
