@@ -1,115 +1,34 @@
-   body{
-       background: #1A0B2E;
-       margin: 0;
-       color: white;
-       font-family: Arial, sans-serif;
-   }
-   
-   .navbar{
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 40px;
-      margin-left: 200px;
-      margin-right: 200px; 
-   }
-   
-   .logo{
-      font-size: 60px;
-      font-weight: bold;
-   }
-   
-   .logo span{
-       color:#ef89de ;
-   }
-   
-   .menu{
-      margin: 30px;
-   
-   }
-   
-   
-   .menu a{
-      margin: 20px;
-      color: white;
-      text-decoration: none;
-   
-   }
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
-.subscribe-btn{
-     background: linear-gradient(to right, #ff2bdc, #ffb347);
-     border: none;
-     padding: 8px 16px;
-     border-radius: 20px;
-     cursor: pointer;
-     margin: 30px;
-     color: white;
-     display: flex;
-     align-items: center;
-     gap: 8px;
+/* fixed styles */
+body {
+  background-color: #1a0b2e;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-/* hero section  */
+/* shared styles */
+.gradient-color{
+background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gradient-btn {
+  border-radius: 100px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+}
+.gradient-bg{
+    background: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+    
+}
+/* text-opacity */
+.opacity{
+  opacity: 0.8;
 
-
-
-
-/* About section */
-
-    .about-section {
-      background-color:#1A0B2E;
-      color: #fffffe;
-      text-align: center;
-      width: 1400px;
-      height: 646px;
-      margin: 0 auto;
-    }
-    
-    .title {
-      font-size: 2.8rem;
-      margin-bottom: 1.5rem;
-      color: #00ff9d;
-    }
-    
-    .description { 
-      max-width: 1200px;
-      margin: 0 auto ;
-      font-size: 1.15rem;
-      line-height: 1.6;
-      color: #a7a9be;
-      margin-top: 1.8rem;
-    }
-    
-    
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px 60px;
-      margin-top: 80px;
-    }
-    
-    .stat-item {
-      text-align: center;
-      min-width: 180px;
-    }
-    
-    .stat-number {
-      font-size: 3.2rem;
-      font-weight: bold;
-      color: #00ff9d;
-      margin-bottom: 0.6rem;
-    }
-    
-    .stat-label {
-      font-size: 1.1rem;
-      color: #94a1b2;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-    
-    .line{
-       margin-top: 100px;
-       width: 1000px;
-       opacity: 0.1;
-    }
+}

@@ -1,116 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techwave</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-                                            <!-- navbar section -->
-    <div class="navbar"> 
+<!doctype html>
+<html lang="en" data-them="[#1A0B2E]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2</title>
 
-        <div class="logo">
-              Tech <span>Wave</span></div> 
+    <!-- TAILWINDCSS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-        <div class="menu">
-              <a href="">About</a>
-              <a href="">Episode</a>
-              <a href="">Host</a>
+    <!-- CDNJS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+   <body>
+    <header>
+      <!-- navbar section -->
+  <nav class="w-[96%] mx-auto md:w-[71%] flex items-center justify-between mt-4 mb-4">
+
+        <div class="font-bold text-3xl md:text-4xl lg:text-5xl">
+          <span>Tech</span><span class="gradient-color">Wave</span>
         </div>
 
-            <button class="subscribe-btn">Subscribe 
-            <img src="./B13-A02-TechWave/assets/ArrowRight.png" alt=""></button>    
-    </div>
+        <div class="hidden lg:block">
+          <ul class="flex gap-8">
+            <a class="animation-btn py-1 px-3" href=""><li>About</li></a>
+            <a class="animation-btn py-1 px-3"><li>Episodes</li></a>
+            <a class="animation-btn py-1 px-3"><li>Host</li></a>
+          </ul>
+        </div>
 
+        <button class="hidden gradient-btn md:block">
+          Subscribe <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
 
-                                           <!-- hero section -->
-
-  <div class="hero">
-    <img class="wave-image" src="./B13-A02-TechWave/assets/hero-bg.png" alt="">
-
-    <div class="circle-container">
-
-        <img class="circle-image" src="./B13-A02-TechWave/assets/hero-circle.png" alt="">
-
-        <img class="mic-image" src="./B13-A02-TechWave/assets/microphone.png" alt="">
-        
-    </div>
-
-    <h1 class="hero-title">TechWave</h1>
-    <p class="hero-text">
-      Your daily dose of tech insights, productivity hacks, and personal growth
-    </p>
-
-    <div class="hero-buttons">
-      <button class="btn-primary">Listen on Spotify</button>
-      <button class="btn-secondary">Subscribe</button>
-    </div>
-  </div>
-
-                                                      <!-- About section -->
-  <section class="about-section">
-  <h1 class="title">About The Podcast</h1>
-  
-  <div class="description">
-    <p>
-      TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>
-      We break down complex topics into digestable insights, explore productivity strategies that actually work,<br>
-      and share stories of personal growth from industry leaders.
-    </p>
-    <p style="margin-top: 1.8rem;">
-      Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-    </p>
-  </div>
-
-  <hr class="line">
-
-  <div class="stats">
-    <div class="stat-item">
-      <div class="stat-number">150K+</div>
-      <div class="stat-label">Monthly Listeners</div>
-    </div>
-    
-    <div class="stat-item">
-      <div class="stat-number">200+</div>
-      <div class="stat-label">Episodes Published</div>
-    </div>
-    
-    <div class="stat-item">
-      <div class="stat-number">4.9 ★</div>
-      <div class="stat-label">Average Rating</div>
-    </div>
-    
-    <div class="stat-item">
-      <div class="stat-number">50+</div>
-      <div class="stat-label">Industry Experts</div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+        <div class="md:hidden ">
+          <div class="animation-btn p-2 ">
+            <img  w-[100%] src="./assets/hamburger-menu.png" alt="menu" />
+          </div>
+        </div>
+      </nav>
